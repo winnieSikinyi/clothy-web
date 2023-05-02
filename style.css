@@ -1,0 +1,97 @@
+body{
+
+}
+nav{
+    display: flex;
+    margin-left: 2%;
+    padding: 10px;
+    justify-content: space-between;
+
+   
+}
+#firstp{
+    width: 98vw;
+}
+.dres{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.bluish{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+.view{
+    text-align: center;
+}
+#product{
+    background-color:purple;
+    color: aliceblue;
+    
+}
+.gym{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.message{
+    text-align: center;
+
+}
+.footer{
+    display: flex;
+    gap: 100px;
+}
+#keys{
+    background-color: transparent;
+    color: black;
+    padding: 20px;
+}
+#kys{
+    background-color: blueviolet;
+    padding: 20px;
+}
+@media (min-width: 1000px) and (max-width: 1568px) {
+    body{
+
+    }
+    nav{
+        display: flex;
+        margin-left: 2%;
+        padding: 10px;
+        justify-content: space-between;
+    
+       
+    }
+    #firstp{
+        width: 98vw;
+    }
+    .dres{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .bluish{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    }
+    .view{
+        text-align: center;
+    }
+    #product{
+        background-color:purple;
+        color: aliceblue;
+        
+    }
+    .gym{
+        display: grid;
+       grid-template-columns: repeat(2,1fr);
+    }
+    .message{
+        text-align: center;
+    
+    }
+    .footer{
+        display: flex;
+        gap: 100px;
+    }
+}    
